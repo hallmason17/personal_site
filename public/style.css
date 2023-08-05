@@ -5,6 +5,10 @@ body {
     	font-family: sans-serif ;
 }
 
+p {
+  color: navajowhite;
+}
+
 h1 {
 	text-align: center ;
 	color: navajowhite;
@@ -26,13 +30,9 @@ h2 {
 }
 
 h3 {
-	text-align: center;
 	color: #DDA15E;
-	font-size: 18pt;
+	font-size: 14pt;
     padding: 5px;
-	border-bottom: 2px dashed navajowhite ;
-	max-width: 500px ;
-	margin: 1em auto ;
 }
 
 ul {

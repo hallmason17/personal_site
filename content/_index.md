@@ -8,24 +8,24 @@ My name is Mason Hall. I am a data nerd turned Software Engineer. I worked as a 
 
 ## Projects
 
-    Inventory Management System (C#, .NET, WPF, SQL Server)
-        - IMS with all basic CRUD functionality 
-        - WPF front end
-        - C# backend API
-        - MS SQL Server for the database
+### Inventory Management System (C#, .NET, WPF, SQL Server)
+>> - IMS with all basic CRUD functionality 
+>> - WPF front end
+>> - C# backend API
+>> - MS SQL Server for the database
 
-    Linux Hardware Monitor (GoLang) 
-        - Terminal application written in Go
-        - Shows per-core CPU utilization
-        - Battery life calculations
-            - Time left while on battery 
-            - Time until fully charged while on charger 
-        - Free, utilized, and total RAM
+### Linux Hardware Monitor (GoLang) 
+>> - Terminal application written in Go
+>> - Shows per-core CPU utilization
+>> - Battery life calculations
+>> >> - Time left while on battery 
+>> >> - Time until fully charged while on charger 
+>> - Free, utilized, and total RAM
 
-    PLC Controller Migration (C#, .NET, INGEAR, Allen Bradley, Unitronix)
-        - Application responsible for controlling over a thousand PLCs 
-        - Multiple third-party software integrations
-        - Migrated application to new versions of third-party software (INGEAR and others) 
+### PLC Controller Migration (C#, .NET, INGEAR, Allen Bradley, Unitronix)
+>> - Application responsible for controlling over a thousand PLCs 
+>> - Multiple third-party software integrations
+>> - Migrated application to new versions of third-party software (INGEAR and others) 
 
 ## My favorite software
 
