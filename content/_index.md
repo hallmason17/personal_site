@@ -5,22 +5,27 @@ title: "Mason's Webpage"
 ## Introduction
 
 My name is Mason Hall. I am a data nerd turned Software Engineer. I worked as a Data Analyst for 7 years before switching careers, moving to software at the end of 2022. I have worked on quite a few fun coding projects at home throughout. Check out some of them below!
+
 ## Projects
 
-    Project 1
+    Inventory Management System (C#, .NET, WPF, SQL Server)
+        - IMS with all basic CRUD functionality 
+        - WPF front end
+        - C# backend API
+        - MS SQL Server for the database
 
-        This is what I did on this project
-        These are some of the technologies I used
+    Linux Hardware Monitor (GoLang) 
+        - Terminal application written in Go
+        - Shows per-core CPU utilization
+        - Battery life calculations
+            - Time left while on battery 
+            - Time until fully charged while on charger 
+        - Free, utilized, and total RAM
 
-    Project 2
-
-        This is what I did on this project
-        These are some of the technologies I used
-
-    Project 3
-
-        This is what I did on this project
-        These are some of the technologies I used
+    PLC Controller Migration (C#, .NET, INGEAR, Allen Bradley, Unitronix)
+        - Application responsible for controlling over a thousand PLCs 
+        - Multiple third-party software integrations
+        - Migrated application to new versions of third-party software (INGEAR and others) 
 
 ## My favorite software
 

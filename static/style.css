@@ -1,8 +1,12 @@
 body {
-	color: beige ;
+	color: navajowhite;
 	background: #283618;
 	margin-bottom: 200px;
     	font-family: sans-serif ;
+}
+
+p {
+  color: navajowhite;
 }
 
 h1 {
