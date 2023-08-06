@@ -1,0 +1,13 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Mason&#39;s Website</title>
+	<link>https://www.mason-hall.xyz/tutorials/</link>
+	<description>Recent content on Mason&#39;s Website</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="https://www.mason-hall.xyz/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	</channel>
+</rss>
