@@ -5,9 +5,48 @@
 	<description>Recent content in Mason&#39;s Webpage on Mason&#39;s Website</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
+	<lastBuildDate>Sun, 06 Aug 2023 16:50:28 -0400</lastBuildDate>
     
         <atom:link href="https://www.mason-hall.xyz/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Pivot Tables</title>
+		<link>https://www.mason-hall.xyz/tutorials/pivot_table/</link>
+		<pubDate>Sun, 06 Aug 2023 16:50:28 -0400</pubDate>
+		
+		<guid>https://www.mason-hall.xyz/tutorials/pivot_table/</guid>
+		<description>&lt;h2 id=&#34;what-is-a-pivot-table&#34;&gt;What is a Pivot Table?&lt;/h2&gt;
+&lt;p&gt;A pivot table is a tool in Excel that makes it easy to quickly summarize a dataset. More powerful tools are required to work with huge sets of data, but pivot tables work great to quickly gather insights about smaller sets.&lt;/p&gt;
+&lt;h3 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h3&gt;
+&lt;h4 id=&#34;step-1-the-dataset&#34;&gt;Step 1. The Dataset&lt;/h4&gt;
+&lt;p&gt;In the example today, I am working with the &lt;a href=&#34;https://www.kaggle.com/datasets/gregorut/videogamesales&#34;&gt;Video Game Sales&lt;/a&gt; dataset from &lt;a href=&#34;https://www.kaggle.com&#34;&gt;Kaggle&lt;/a&gt;. Kaggle is a great place to get data to practice on. The video game sales dataset shows sales data for over 16,000 games. This is a great size to use pivot tables on, depending on your processor, I suppose.&lt;/p&gt;
+&lt;h4 id=&#34;dataset-must-haves&#34;&gt;Dataset must haves:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Must be organized in columns (headers across the top), rather than in rows (headers down the side).&lt;/li&gt;
+&lt;li&gt;All columns must have names (these must be unique).
+ 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.mason-hall.xyz/vgsalesdataset.png&#34; alt=&#34;Video Game Sales Data&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;step-2-creating-the-pivot-table&#34;&gt;Step 2. Creating the Pivot Table&lt;/h4&gt;
+&lt;p&gt;With your dataset prepped. Go ahead and select all of the cells you wish to include in the pivot table. To select all the data in the current sheet, which is what I usually do, you can either click the top left corner (left of the A column and above the 1 row) or you can press Ctrl-A once or twice to select all of the data in the sheet.&lt;br&gt;
+ 
+Next, go to the Insert tab at the top ribbon and click Pivot Table right underneath it. This will open up a pop-up window with prompts about data and the desired location of the pivot table. For most cases, you can just press OK since you already selected the data before hand. You should now be at a new excel sheet.&lt;/p&gt;
+&lt;p&gt; 
+ &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.mason-hall.xyz/pivot_table_create.png&#34; alt=&#34;Pivot Table Create&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;step-3-adding-data-to-the-pivot-table&#34;&gt;Step 3. Adding Data to the Pivot Table&lt;/h4&gt;
+&lt;p&gt;Now we actually get to the fun part of summarizing the data. To add things to the pivot table, simply click and drag from the Field Names section into the configuration that you want. For example, to see video game sales in North America by genre in total (all years combined) drag Genre into the columns section and NA_Sales into the Values section. To see it by year as well, drag Year into either the rows or columns depending on your preference. These can also be sorted and filtered to your liking. I&amp;rsquo;ll have a few examples below:&lt;/p&gt;
+&lt;p&gt; 
+ &lt;/p&gt;
+&lt;h4 id=&#34;total-sales-in-north-america-by-publisher--genre-for-all-years&#34;&gt;Total sales in North America by publisher &amp;amp; genre for all years:&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.mason-hall.xyz/pivot_table1.png&#34; alt=&#34;Pivot Table 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4 id=&#34;total-sales-in-north-america-by-publisher--genre-by-year-for-the-ps3&#34;&gt;Total sales in North America by publisher &amp;amp; genre by year for the PS3:&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.mason-hall.xyz/pivot_table2.png&#34; alt=&#34;Pivot Table 2&#34;&gt;&lt;/p&gt;
+</description>
+	</item>
 	
 	</channel>
 </rss>

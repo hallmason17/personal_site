@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pivot Tables | Mason&#39;s Website</title>
+	<link rel="canonical" href="https://www.mason-hall.xyz/">
+	<link rel='alternate' type='application/rss+xml' title="Mason&#39;s Website RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="What is a Pivot Table? A pivot table is a tool in Excel that makes it easy to quickly summarize a dataset. More powerful tools are required to work with huge sets of data, but pivot tables work great to quickly gather insights about smaller sets.
+Getting Started Step 1. The Dataset In the example today, I am working with the Video Game Sales dataset from Kaggle. Kaggle is a great place to get data to practice on.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Pivot Tables">Pivot Tables</h1></header>
+<article>
+
+<h2 id="what-is-a-pivot-table">What is a Pivot Table?</h2>
+<p>A pivot table is a tool in Excel that makes it easy to quickly summarize a dataset. More powerful tools are required to work with huge sets of data, but pivot tables work great to quickly gather insights about smaller sets.</p>
+<h3 id="getting-started">Getting Started</h3>
+<h4 id="step-1-the-dataset">Step 1. The Dataset</h4>
+<p>In the example today, I am working with the <a href="https://www.kaggle.com/datasets/gregorut/videogamesales">Video Game Sales</a> dataset from <a href="https://www.kaggle.com">Kaggle</a>. Kaggle is a great place to get data to practice on. The video game sales dataset shows sales data for over 16,000 games. This is a great size to use pivot tables on, depending on your processor, I suppose.</p>
+<h4 id="dataset-must-haves">Dataset must haves:</h4>
+<ul>
+<li>Must be organized in columns (headers across the top), rather than in rows (headers down the side).</li>
+<li>All columns must have names (these must be unique).
+ 
+ </li>
+</ul>
+<p><img src="/vgsalesdataset.png" alt="Video Game Sales Data"></p>
+<h4 id="step-2-creating-the-pivot-table">Step 2. Creating the Pivot Table</h4>
+<p>With your dataset prepped. Go ahead and select all of the cells you wish to include in the pivot table. To select all the data in the current sheet, which is what I usually do, you can either click the top left corner (left of the A column and above the 1 row) or you can press Ctrl-A once or twice to select all of the data in the sheet.<br>
+ 
+Next, go to the Insert tab at the top ribbon and click Pivot Table right underneath it. This will open up a pop-up window with prompts about data and the desired location of the pivot table. For most cases, you can just press OK since you already selected the data before hand. You should now be at a new excel sheet.</p>
+<p> 
+ </p>
+<p><img src="/pivot_table_create.png" alt="Pivot Table Create"></p>
+<h4 id="step-3-adding-data-to-the-pivot-table">Step 3. Adding Data to the Pivot Table</h4>
+<p>Now we actually get to the fun part of summarizing the data. To add things to the pivot table, simply click and drag from the Field Names section into the configuration that you want. For example, to see video game sales in North America by genre in total (all years combined) drag Genre into the columns section and NA_Sales into the Values section. To see it by year as well, drag Year into either the rows or columns depending on your preference. These can also be sorted and filtered to your liking. I&rsquo;ll have a few examples below:</p>
+<p> 
+ </p>
+<h4 id="total-sales-in-north-america-by-publisher--genre-for-all-years">Total sales in North America by publisher &amp; genre for all years:</h4>
+<p><img src="/pivot_table1.png" alt="Pivot Table 1"></p>
+<p> </p>
+<h4 id="total-sales-in-north-america-by-publisher--genre-by-year-for-the-ps3">Total sales in North America by publisher &amp; genre by year for the PS3:</h4>
+<p><img src="/pivot_table2.png" alt="Pivot Table 2"></p>
+
+
+
+</article>
+</main>
+
+<footer>
+	<a href="https://www.mason-hall.xyz/">https://www.mason-hall.xyz/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>
