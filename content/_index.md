@@ -4,7 +4,7 @@ title: "Mason's Webpage"
 
 ## Introduction
 
-My name is Mason Hall. I am a data nerd turned Software Engineer. I worked as a Data Analyst for 7 years before switching careers, moving to software at the end of 2022. I have worked on quite a few fun coding projects at home throughout. Check out some of them below!
+My name is Mason Hall. I am a Data Analyst turned Software Engineer. I worked as a Data Analyst for 7 years before switching careers, moving to software at the end of 2022. I have worked on quite a few fun coding projects at home throughout. Check out some of them below!
 
 ## Projects
 
